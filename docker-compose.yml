@@ -18,7 +18,11 @@ services:
       - "11211:11211"
   
   vpromq01:
+<<<<<<< HEAD
     image: rabbitmq 
+=======
+    image: rabbitmq
+>>>>>>> bcc55e5f237c6fb8979af6665c4f28672b7a6d18
     ports:
       - "15672:15672"
     environment:
